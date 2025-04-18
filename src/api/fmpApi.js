@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BASE_URL = "https://financialmodelingprep.com/api/v3";
-const API_KEY = "oTKy0KOpasd0Zmhn5MjIUCxF8yPxyEc8";
+const API_KEY = "";
 
 export const getStockQuote = async (symbol) => {
   const res = await axios.get(`${BASE_URL}/quote/${symbol.toUpperCase()}`, {
