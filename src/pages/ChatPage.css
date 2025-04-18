@@ -1,0 +1,82 @@
+.chat-container {
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.chat-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.chat-box {
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+
+.chat-log {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+.chat-log p {
+  margin: 0 0 0.75rem 0;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+.chat-log a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.chat-log a:hover {
+  text-decoration: underline;
+}
+
+.chat-log img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.8rem 1rem;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f8f9fa;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.chat-input-row input {
+  flex-grow: 1;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.94rem;
+}
+
+.chat-input-row button {
+  padding: 0.55rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input-row button:hover {
+  background-color: #0056b3;
+}

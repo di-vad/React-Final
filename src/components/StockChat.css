@@ -1,0 +1,44 @@
+.stock-chat-box {
+  margin-top: 2rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+.stock-chat-log {
+  height: 250px;
+  overflow-y: scroll;
+  padding-right: 10px;
+  margin-bottom: 1rem;
+}
+
+.stock-chat-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.stock-chat-input input {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.stock-chat-input button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stock-chat-input button:hover {
+  background-color: #0056b3;
+}
